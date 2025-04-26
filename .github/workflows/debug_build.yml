@@ -6,7 +6,7 @@ on:
 #      - master
 #      - 'github-releases/**'
      tags:
-       - 'v0.48'
+       - v0.48
   pull_request:
     branches:
       - master
