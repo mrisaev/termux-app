@@ -2,9 +2,9 @@ name: Build
 
 on:
   push:
-    branches:
-      - master
-      - 'github-releases/**'
+#    branches:
+#      - master
+#      - 'github-releases/**'
     tags:
       - 'v0.048'
   pull_request:
