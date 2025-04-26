@@ -5,6 +5,8 @@ on:
     branches:
       - master
       - 'github-releases/**'
+    tags:
+      - 'v0.048'
   pull_request:
     branches:
       - master
