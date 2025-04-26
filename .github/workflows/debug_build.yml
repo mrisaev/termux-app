@@ -11,6 +11,8 @@ on:
     branches:
       - master
   workflow_dispatch:
+    tags:
+      - v0.48
 jobs:
   build:
     runs-on: ubuntu-latest
